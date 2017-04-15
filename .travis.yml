@@ -1,0 +1,5 @@
+language: objective-c
+xcode_workspace: CIDemo.xcworkspace
+xcode_scheme: CIDemo
+osx_image: xcode8.3
+xcode_sdk: iphonesimulator10.3

@@ -12,6 +12,7 @@
 		0B77B0DA1EA1A78300043FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B77B0D81EA1A78300043FB7 /* Main.storyboard */; };
 		0B77B0DC1EA1A78300043FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B77B0DB1EA1A78300043FB7 /* Assets.xcassets */; };
 		0B77B0DF1EA1A78300043FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B77B0DD1EA1A78300043FB7 /* LaunchScreen.storyboard */; };
+		916B3417C18E0E35A015BBEC /* Pods_CIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A52483C405EDA8FC250FA8E /* Pods_CIDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		0B77B0DB1EA1A78300043FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B77B0DE1EA1A78300043FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B77B0E01EA1A78300043FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A52483C405EDA8FC250FA8E /* Pods_CIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C7DBAC76BECA1040048118 /* Pods-CIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CIDemo/Pods-CIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E1FF2FB31404558B20EDFDA2 /* Pods-CIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CIDemo/Pods-CIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				916B3417C18E0E35A015BBEC /* Pods_CIDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				0B77B0D31EA1A78300043FB7 /* CIDemo */,
 				0B77B0D21EA1A78300043FB7 /* Products */,
+				EB09FFAFECED6106830E9666 /* Pods */,
+				F411C7418EF92F5281D1D182 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = CIDemo;
 			sourceTree = "<group>";
 		};
+		EB09FFAFECED6106830E9666 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF2FB31404558B20EDFDA2 /* Pods-CIDemo.debug.xcconfig */,
+				C2C7DBAC76BECA1040048118 /* Pods-CIDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F411C7418EF92F5281D1D182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A52483C405EDA8FC250FA8E /* Pods_CIDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B77B0E31EA1A78300043FB7 /* Build configuration list for PBXNativeTarget "CIDemo" */;
 			buildPhases = (
+				FBF8180FC30DC6A79F97DF80 /* [CP] Check Pods Manifest.lock */,
 				0B77B0CD1EA1A78300043FB7 /* Sources */,
 				0B77B0CE1EA1A78300043FB7 /* Frameworks */,
 				0B77B0CF1EA1A78300043FB7 /* Resources */,
+				B1354C43E4351F02E828BCBE /* [CP] Embed Pods Frameworks */,
+				35E17D5B07ADC8C2B46F5BFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35E17D5B07ADC8C2B46F5BFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIDemo/Pods-CIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1354C43E4351F02E828BCBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIDemo/Pods-CIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF8180FC30DC6A79F97DF80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B77B0CD1EA1A78300043FB7 /* Sources */ = {
@@ -259,6 +334,7 @@
 		};
 		0B77B0E41EA1A78300043FB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1FF2FB31404558B20EDFDA2 /* Pods-CIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38483X3B39;
@@ -272,6 +348,7 @@
 		};
 		0B77B0E51EA1A78300043FB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C7DBAC76BECA1040048118 /* Pods-CIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38483X3B39;

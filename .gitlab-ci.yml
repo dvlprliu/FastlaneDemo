@@ -1,16 +1,14 @@
 stages:
-  - build
+  - test
 
 before_script:
   - ruby --version
-  - gem install cocoapods
-  - gem install xcpretty
+  - gem install bundler
   - pod install
 
 build_project:
-  stage: build
+  stage: test
   script:
-    - xcodebuild -workspace CIDemo.xcworkspace -scheme CIDemo | xcpretty
     - xcodebuild test -workspace CIDemo.xcworkspace -scheme CIDemo -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.3' | xcpretty -s
   tags:
     - ios_10

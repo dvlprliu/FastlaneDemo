@@ -2,7 +2,7 @@ stages:
   - build
 
 before_script:
-  pod install
+  - pod install
 
 build_project:
   stage: build

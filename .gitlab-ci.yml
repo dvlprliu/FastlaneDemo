@@ -5,7 +5,7 @@ stages:
 install_denpendcy:
     stage: dependency
     script: 
-      pods install
+        ruby --version
     tags:
       - ios_10
       - xcode_8

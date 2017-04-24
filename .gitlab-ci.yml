@@ -5,7 +5,7 @@ stages:
 install_denpendcy:
   stage: dependency
   script: 
-    ruby --version
+    pod install
   tags:
     - ios_10
     - xcode_8
@@ -13,7 +13,7 @@ install_denpendcy:
 build_project:
   stage: build
   script:
-    - xcodebuild clean -project CIDemo.xcworkspace -scheme CIDemo | xcpretty
+    - xcodebuild -workspace CIDemo.xcworkspace -scheme CIDemo | xcpretty
     - xcodebuild test -project CIDemo.xcworkspace -scheme CIDemo -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -s
   tags:
     - ios_10

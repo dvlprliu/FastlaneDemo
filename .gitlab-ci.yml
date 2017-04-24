@@ -4,6 +4,7 @@ stages:
 before_script:
   - ruby --version
   - gem install cocoapods
+  - gem install xcpretty
   - pod install
 
 build_project:

@@ -8,5 +8,4 @@ build_project:
     - xcodebuild test -project CIDemo.xcworkspace -scheme CIDemo -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -s
   tags:
     - ios_10
-    - xcode_8-3
-    - osx_10-12
+    - xcode_8

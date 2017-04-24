@@ -1,14 +1,14 @@
 stages:
-    #- dependency
+  - dependency
   - build
 
-    #install_denpendcy:
-    #    stage: dependency
-    #    script: 
-    #        ruby --version
-    #    tags:
-    #      - ios_10
-    #      - xcode_8
+    install_denpendcy:
+        stage: dependency
+        script: 
+            ruby --version
+        tags:
+          - ios_10
+          - xcode_8
 
 build_project:
   stage: build

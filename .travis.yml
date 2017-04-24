@@ -3,6 +3,5 @@ xcode_workspace: CIDemo.xcworkspace
 xcode_scheme: CIDemo
 osx_image: xcode8.3
 xcode_sdk: iphonesimulator10.3
-before_install: 
-    - gem install cocoapods
-    - pod repo update
+before_install:
+    - get install xcpretty -N --no-ri --no-rdoc

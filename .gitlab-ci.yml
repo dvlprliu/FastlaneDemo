@@ -1,0 +1,12 @@
+stages:
+  - build
+
+build_project:
+  stage: build
+  script:
+    - xcodebuild clean -project CIDemo.xcworkspace -scheme CIDemo | xcpretty
+    - xcodebuild test -project CIDemo.xcworkspace -scheme CIDemo -destination 'platform=iOS Simulator,name=iPhone 6s,OS=9.2' | xcpretty -s
+  tags:
+    - ios_10
+    - xcode_8-3
+    - osx_10-12

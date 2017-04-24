@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CIDemo.xcscheme</key>
+		<key>CIDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -13,6 +13,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0B77B0D01EA1A78300043FB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B8D00911EAC6372000CAC97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B8D009F1EAC637A000CAC97</key>
 		<dict>
 			<key>primary</key>
 			<true/>

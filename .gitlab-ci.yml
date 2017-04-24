@@ -4,7 +4,12 @@ stages:
 
 install_denpendcy:
     stage: dependency
-    script: gem install cocoapods
+    script: 
+      gem install cocoapods
+      pods install
+    tags:
+      - ios_10
+      - xcode_8
 
 build_project:
   stage: build

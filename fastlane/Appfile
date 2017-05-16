@@ -1,4 +1,4 @@
-app_identifier "n" # The bundle identifier of your app
+app_identifier "come.etutech.testapp.cidemo" # The bundle identifier of your app
 apple_id "liuzhuang_2@163.com" # Your Apple email address
 
 team_id "P23QACTEDT" # Developer Portal Team ID

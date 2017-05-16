@@ -1,0 +1,76 @@
+[11:14:23]: [32m-------------------------------------------------[0m
+[11:14:23]: [32m--- Step: Verifying required fastlane version ---[0m
+[11:14:23]: [32m-------------------------------------------------[0m
+[11:14:23]: Your fastlane version 2.28.3 matches the minimum requirement of 2.28.3  ✅
+[11:14:23]: [32m------------------------------[0m
+[11:14:23]: [32m--- Step: default_platform ---[0m
+[11:14:23]: [32m------------------------------[0m
+[11:14:23]: Welcome to fastlane! Here's what your app is setup to do:
++--------+-------------+---------------------------------------------------+
+|                          Available lanes to run                          |
++--------+-------------+---------------------------------------------------+
+| Number | Lane Name   | Description                                       |
++--------+-------------+---------------------------------------------------+
+| 1      | ios test    | Runs all the tests                                |
+| 2      | ios beta    | Submit a new Beta Build to Apple TestFlight This  |
+|        |             | will also make sure the profile is up to date     |
+| 3      | ios release | Deploy a new version to the App Store             |
+| 0      | cancel      | No selection, exit fastlane!                      |
++--------+-------------+---------------------------------------------------+
+[11:14:23]: [33mWhich number would you like run?[0m
+
+Looking for related GitHub issues on fastlane/fastlane...
+
+➡️  [33mSetting up fastlane for the first time, getting errors early on. [0m
+   https://github.com/fastlane/fastlane/issues/8792 [[31mopen[0m] 2 💬
+   3 weeks ago
+
+➡️  [33mMissing Push Notification Entitlement - response from itunes app review[0m
+   https://github.com/fastlane/fastlane/issues/8523 [[31mopen[0m] 5 💬
+   5 weeks ago
+
+➡️  [33mfastlane deliver upload_build - not referencing fastlane/metadata/review_information/notes.txt for app_review_information key 'notes'[0m
+   https://github.com/fastlane/fastlane/issues/8413 [[32mclosed[0m] 2 💬
+   01 Mar 2017
+
+and 16 more at: https://github.com/fastlane/fastlane/search?q=Could%20not%20retrieve%20response%20as%20fastlane%20runs%20in%20non-interactive%20mode&type=Issues&utf8=✓
+
+🔗  You can ⌘ + double-click on links to open them directly in your browser.
+[11:14:36]: [32m-------------------------------------------------[0m
+[11:14:36]: [32m--- Step: Verifying required fastlane version ---[0m
+[11:14:36]: [32m-------------------------------------------------[0m
+[11:14:36]: Your fastlane version 2.28.3 matches the minimum requirement of 2.28.3  ✅
+[11:14:36]: [32m------------------------------[0m
+[11:14:36]: [32m--- Step: default_platform ---[0m
+[11:14:36]: [32m------------------------------[0m
+[11:14:36]: Welcome to fastlane! Here's what your app is setup to do:
++--------+-------------+---------------------------------------------------+
+|                          Available lanes to run                          |
++--------+-------------+---------------------------------------------------+
+| Number | Lane Name   | Description                                       |
++--------+-------------+---------------------------------------------------+
+| 1      | ios test    | Runs all the tests                                |
+| 2      | ios beta    | Submit a new Beta Build to Apple TestFlight This  |
+|        |             | will also make sure the profile is up to date     |
+| 3      | ios release | Deploy a new version to the App Store             |
+| 0      | cancel      | No selection, exit fastlane!                      |
++--------+-------------+---------------------------------------------------+
+[11:14:36]: [33mWhich number would you like run?[0m
+
+Looking for related GitHub issues on fastlane/fastlane...
+
+➡️  [33mSetting up fastlane for the first time, getting errors early on. [0m
+   https://github.com/fastlane/fastlane/issues/8792 [[31mopen[0m] 2 💬
+   3 weeks ago
+
+➡️  [33mMissing Push Notification Entitlement - response from itunes app review[0m
+   https://github.com/fastlane/fastlane/issues/8523 [[31mopen[0m] 5 💬
+   5 weeks ago
+
+➡️  [33mfastlane deliver upload_build - not referencing fastlane/metadata/review_information/notes.txt for app_review_information key 'notes'[0m
+   https://github.com/fastlane/fastlane/issues/8413 [[32mclosed[0m] 2 💬
+   01 Mar 2017
+
+and 16 more at: https://github.com/fastlane/fastlane/search?q=Could%20not%20retrieve%20response%20as%20fastlane%20runs%20in%20non-interactive%20mode&type=Issues&utf8=✓
+
+🔗  You can ⌘ + double-click on links to open them directly in your browser.
